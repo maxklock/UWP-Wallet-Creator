@@ -1,0 +1,29 @@
+﻿<ContentDialog
+    x:Class="WalletCreator.WalletvCardItemDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WalletCreator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="New vCard"
+    PrimaryButtonText="Save"
+    SecondaryButtonText="Abort"
+    PrimaryButtonClick="ContentDialogPrimaryButtonClick"
+    SecondaryButtonClick="ContentDialogSecondaryButtonClick">
+
+    <StackPanel>
+        <TextBox x:Name="tbxName"
+                 PlaceholderText="Max Mustermann"
+                 Header="Name" />
+        <TextBox x:Name="tbxOrganization"
+                 PlaceholderText="XYZ GmbH"
+                 Header="Organization" />
+        <TextBox x:Name="tbxPhone"
+                 PlaceholderText="0123 456 789"
+                 Header="Phone" />
+        <TextBox x:Name="tbxMail"
+                 PlaceholderText="max.mustermann@example.com"
+                 Header="Mail" />
+    </StackPanel>
+</ContentDialog>

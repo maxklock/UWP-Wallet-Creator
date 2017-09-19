@@ -1,0 +1,45 @@
+﻿<UserControl
+    x:Class="WalletCreator.CropImageControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WalletCreator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+
+    <Grid>
+        <Image x:Name="imageControll" />
+        <Border x:Name="cropBorder"
+                BorderBrush="Red"
+                BorderThickness="2">
+            <Border.RenderTransform>
+                <CompositeTransform />
+            </Border.RenderTransform>
+        </Border>
+        <Ellipse x:Name="ellipseTopLeft"
+                 ManipulationMode="All"
+                 ManipulationDelta="EllipseTopLeftOnManipulationDelta"
+                 Width="20" Height="20" Margin="-10"
+                 Fill="Blue"
+                 HorizontalAlignment="Left"
+                 VerticalAlignment="Top">
+            <Ellipse.RenderTransform>
+                <CompositeTransform />
+            </Ellipse.RenderTransform>
+        </Ellipse>
+
+        <Ellipse x:Name="ellipseBottomRight"
+                 ManipulationMode="All"
+                 ManipulationDelta="EllipseBottomRightOnManipulationDelta"
+                 Width="20" Height="20" Margin="-10"
+                 Fill="Blue"
+                 HorizontalAlignment="Right"
+                 VerticalAlignment="Bottom">
+            <Ellipse.RenderTransform>
+                <CompositeTransform />
+            </Ellipse.RenderTransform>
+        </Ellipse>
+    </Grid>
+</UserControl>
