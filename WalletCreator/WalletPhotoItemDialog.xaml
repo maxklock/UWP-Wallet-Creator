@@ -10,15 +10,19 @@
     PrimaryButtonText="Save"
     SecondaryButtonText="Abort"
     PrimaryButtonClick="ContentDialogPrimaryButtonClick"
-    SecondaryButtonClick="ContentDialogSecondaryButtonClick">
+    SecondaryButtonClick="ContentDialogSecondaryButtonClick"
+    FullSizeDesired="True">
 
     <StackPanel>
         <ComboBox x:Name="boxType"
+                  HorizontalAlignment="Stretch"
                   Header="Type" />
         <TextBox x:Name="tbxName"
+                 Margin="0,20,0,0"
                  PlaceholderText="My Image Card"
                  Header="Name" />
         <TextBox x:Name="tbxId"
+                 Margin="0,20,0,0"
                  PlaceholderText="1234567890"
                  Header="Id" />
     </StackPanel>

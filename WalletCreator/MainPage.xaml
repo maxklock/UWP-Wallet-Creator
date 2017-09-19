@@ -10,7 +10,8 @@
 
     <ScrollViewer Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <StackPanel Margin="20">
-            <Image Source="Assets/Square150x150Logo.scale-200.png" />
+            <Image Source="Assets/Square150x150Logo.scale-200.png"
+                   Margin="40" />
             <Button x:Name="btnPhoto"
                     Margin="0,20,0,0"
                     Content="Take Photo"
