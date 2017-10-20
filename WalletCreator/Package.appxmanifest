@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="8356e9eb-4505-4a37-9c05-5357cb46d945" Publisher="CN=Maximilian Klockmann" Version="1.0.0.0" />
-  <mp:PhoneIdentity PhoneProductId="8356e9eb-4505-4a37-9c05-5357cb46d945" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="MaximilianKlockmann.WalletCreator" Publisher="CN=B48C8FC1-64D8-4F78-95B1-165BDC840A7E" Version="1.1.0.0" />
+  <mp:PhoneIdentity PhoneProductId="bfbc5fd2-e169-4cbc-a13f-c8e8f65821f9" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Wallet Creator</DisplayName>
     <PublisherDisplayName>Maximilian Klockmann</PublisherDisplayName>
